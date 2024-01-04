@@ -1,0 +1,61 @@
+.tulisan_kiri{text-align: left};
+.tulisan_kanan{text-align: right;}
+.tulisan_tengah{text-align: center;}
+.tulisan_justify{text-align: justify;}
+
+.contoh_link,
+.contoh_link:link,
+.contoh_link:active,
+.contoh_link:active,
+.contoh_link:visited{
+    font-size: 30pt;
+    background-color: dodgerblue;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.contoh_link:hover{
+    background-color: aquamarine;
+}
+
+.contoh_tulisan1{
+    color: rgb(72, 102, 49);
+}
+.contoh_tulisan2{
+    color: rgb(168, 107, 107);
+}
+.contoh_tulisan3{
+    color: rgb(28, 150, 32);
+}
+.contoh_tulisan4{
+    color: #000;}
+
+    tulisan_satu{
+        color: blue;
+        text-decoration: underline;
+        }
+        .tulisan_dua{
+        text-align: right;
+        text-transform: capitalize;
+        text-decoration: overline;
+        }
+        .tulisan_tiga{
+        text-align: center;
+        text-transform: lowercase;
+        text-decoration: line-through;
+        word-spacing: 10px;
+        }
+        .tulisan_empat{
+        text-align: center;
+        text-transform: uppercase;
+        text-indent: 30px;
+        line-height: 30px;
+        letter-spacing: 5px;
+        }
+        .bulet{
+            background-color: antiquewhite;
+            position: relative ;
+            left:  100px;
+            padding: 10px;
+        }
